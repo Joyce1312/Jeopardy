@@ -22,23 +22,23 @@ let winner;
 
 let sound = new Howl({
   src: ['correct.mp3'],
-  volume: 0.1
+  volume: 0.13
 });
 
 let incorrect = new Howl({
   src: ['wrong.mp3'],
-  volume: 0.1
+  volume: 0.13
 });
 
 let song = new Howl({
   src: ['jeopardy.mp3'],
   loop:true,
-  volume: 0.08
+  volume: 0.01
 });
 
 let ding = new Howl({
   src: ['ding.mp3'],
-  volume: 0.1
+  volume: 0.13
 }); 
 
 function init(){
