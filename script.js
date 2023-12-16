@@ -36,7 +36,7 @@ let song = new Howl({
 
 let ding = new Howl({
   src: ['ding.mp3']
-});
+}); 
 
 function init(){
   song.play();
