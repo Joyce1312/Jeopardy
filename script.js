@@ -33,7 +33,7 @@ let incorrect = new Howl({
 let song = new Howl({
   src: ['jeopardy.mp3'],
   loop:true,
-  volume: 0.01
+  volume: 0.13
 });
 
 let ding = new Howl({
@@ -200,11 +200,11 @@ function updateTime(){
   }else{
     document.getElementById("output3").style.color = "#bdfab9";
   }
-  
   document.getElementById("output3").innerHTML = timer;
   setTimeout(updateTime,1000);
   
 }
+
 
 
 
